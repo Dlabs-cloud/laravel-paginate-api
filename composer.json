@@ -1,6 +1,6 @@
 {
   "name": "dlabs.cloud/paginate-api",
-  "description": "If you will like to use offset and get a simple pagination response, this will give you out of the box",
+  "description": "If you will like to use offset with your query param in a request and get a simple pagination response, this will give you all out of the box",
   "type": "library",
   "authors": [
     {
