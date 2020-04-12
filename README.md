@@ -1,5 +1,5 @@
 # paginateApi
-# A paginator that gives a better simple response.
+# A paginator that gives a better simple response using offset query param.
 
 This package adds a `paginateApi` method to the Eloquent query builder that listens to those parameters and also allows you to use offset and limit from a request. Example www.dlabs.cloud?limit=20&offset=10
 
