@@ -1,0 +1,35 @@
+{
+    "name": "dlabs/paginateApi",
+    "description": "This is a simple laravel package that allows pagination of db records, compared to the default package that will generate next page url and other attributes, this attributes do not seem important when implementing an API for a client. In addition, paginate api will allow the use of offset and limit when fetching records",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Oluwatobi Adenekan",
+            "email": "tobi@dlabs.cloud"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "illuminate/support": "5.8.*",
+        "illuminate/http": "5.8.*",
+        "illuminate/database": "5.8.*",
+        "illuminate/pagination": "5.8.*",
+      "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dlabs\\PaginateApi\\PaginateApiServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Dlabs\\PaginateApi\\": "src/"
+        }
+    }
+}
