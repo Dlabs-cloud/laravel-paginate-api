@@ -33,9 +33,8 @@ class PaginateApiServiceProvider extends ServiceProvider
     {
         $macro = function ($perPage = 20, $offset = 0, $columns = ['*'], array $options = []) {
 
-            if (!$perPage) {
-                $perPage = request('limit') ?? $perPage;
-            }
+            $perPage = request('limit') ?? $perPage;
+
 
             $this
                 ->skip(request('offset') ?? $offset)
