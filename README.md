@@ -78,7 +78,7 @@ Really for now we do not even have a test, but we push one ASAP. Nice if you can
 
 ## Credits
 
-- All the guys at dlabs.cloud
+- All the guys at dlabs.cloud 🇳🇬
 
 
 ## License
