@@ -1,5 +1,5 @@
 {
-  "name": "dlabs/paginateApi",
+  "name": "dlabs.cloud/paginate-api",
   "description": "This is a simple laravel package that allows pagination of db records, compared to the default package that will generate next page url and other attributes, this attributes do not seem important when implementing an API for a client. In addition, paginate api will allow the use of offset and limit when fetching records",
   "type": "library",
   "authors": [
