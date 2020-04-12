@@ -8,7 +8,7 @@ This package adds a `paginateApi` method to the Eloquent query builder that list
 You can install the package via composer:
 
 ```bash
-composer require dlabs/laravel-paginate-api
+composer require dlabs.cloud/paginate-api
 ```
 
 
