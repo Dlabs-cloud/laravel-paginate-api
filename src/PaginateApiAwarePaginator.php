@@ -7,6 +7,7 @@ use Countable;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Jsonable;
 use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Http\Request;
 use Illuminate\Pagination\AbstractPaginator;
 use IteratorAggregate;
 use JsonSerializable;
@@ -40,7 +41,7 @@ class PaginateApiAwarePaginator extends AbstractPaginator
      */
     private $offset;
     /**
-     * @var array|\Illuminate\Http\Request|string
+     * @var array|Request|string
      */
     private $request;
 

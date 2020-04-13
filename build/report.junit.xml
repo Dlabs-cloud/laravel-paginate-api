@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.175389">
+    <testsuite name="Dlabs Test Suite" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.175389">
+      <testsuite name="Dlabs\PaginateApi\RequestTest" file="/Users/oluwatobi.adenekan/Documents/dcodes/projects/composer-packages/paginateApi/tests/RequestTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.175389">
+        <testcase name="test_that_response_is_successful_when_paginate_api_method_is_used" class="Dlabs\PaginateApi\RequestTest" classname="Dlabs.PaginateApi.RequestTest" file="/Users/oluwatobi.adenekan/Documents/dcodes/projects/composer-packages/paginateApi/tests/RequestTest.php" line="16" assertions="1" time="0.165205"/>
+        <testcase name="test_that_offset_in_request_can_be_used" class="Dlabs\PaginateApi\RequestTest" classname="Dlabs.PaginateApi.RequestTest" file="/Users/oluwatobi.adenekan/Documents/dcodes/projects/composer-packages/paginateApi/tests/RequestTest.php" line="23" assertions="1" time="0.010184"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

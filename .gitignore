@@ -105,3 +105,5 @@ Homestead.json
 /.vagrant
 .phpunit.result.cache
 
+!/build/
+!/build/
