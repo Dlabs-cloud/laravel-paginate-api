@@ -145,9 +145,13 @@ class PaginateApiAwarePaginator extends AbstractPaginator
         return $this->total;
     }
 
+
+    /**
+     * @return \Illuminate\Support\Collection
+     */
     public function result()
     {
-        return $this->items();
+        return $this->items;
     }
 
 
