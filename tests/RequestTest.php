@@ -25,7 +25,7 @@ class RequestTest extends TestCase
         $this->mockTestModel(5);
         $response = $this->json('GET', '/?offset=2');
         $response->assertJsonFragment([
-            'offset' => 2
+            'offset' => 2,
         ]);
     }
 }
